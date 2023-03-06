@@ -1,0 +1,562 @@
+import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+ font-family:'Inter', 'sans-serif';
+ width:100%;
+
+}
+.home-navbar{
+    width:100%;
+    background-color: #eff4f4;
+}
+.home-navbar-contents{
+    padding:15px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-logo{
+    font-size:30px;
+    color:#66958A;
+}
+.contents{
+    font-size:16px;
+    width:800px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.contact-btn {
+    border-radius: 5px;
+    font-size: 15px;
+    border: 3px solid #66958A;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.home:hover {
+
+    text-decoration: underline #66958A 2px;
+    
+}
+.about:hover {
+
+    text-decoration: underline #66958A 2px;
+}
+
+.project:hover {
+
+    text-decoration: underline #66958A 2px;
+}
+
+.experience:hover {
+
+    text-decoration: underline #66958A 2px;
+}
+
+.skills:hover {
+
+    text-decoration: underline #66958A 2px;
+}
+.contact-btn:hover {
+    background-color: #66958A;
+}
+.home-page{
+  width:100%;
+  height:650px;
+  background-color: #eff4f4;
+}
+.home-page-content{
+    height:100%;
+    padding: 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.home-page-content-item{
+    width:50%;  
+   display: flex;
+    
+}
+.text {
+    font-size: 54px;
+    width: 600px;
+    /* position: relative; */
+    
+}
+.picture{
+    width:50%;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url(Images/IMG_20190526_165908_41.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 
+.circle{
+    border-radius: 50%;
+    background-color:#659489;
+    width: 130px;
+    height:130px;
+    position:relative;
+    top:-150px;
+    left:370px;
+} */
+.about-page{
+    width:100%;
+    display: flex;
+    align-items: center;
+
+
+}
+.about-page-content{
+    padding: 100px 130px;
+    
+}
+
+.abt{
+    font-size: 35px;
+    width:130px;
+    padding-bottom:40px;
+    font-weight: 500;
+}
+.about-text{
+   
+    font-size: 20px;
+    line-height: 2rem;
+    word-spacing: 5px;
+    padding-bottom: 50px;
+        
+}
+
+ .resume-btn{
+   
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #66958A;
+    color: white;
+    border-radius: 5px;
+    border:none;
+}
+.resume-btn:hover{
+    opacity: 0.9;
+} 
+
+.projects-page {
+    height:100%;
+    width:100%;
+    background-color: #66958A;
+    
+   
+}
+.project-page-content{
+    padding:100px 130px;
+}
+
+.projct{
+    color: white;
+    font-size: 45px;
+    margin-bottom:40px;
+    font-weight: 500;
+}
+.Project-page-content-project{
+    font-size: 22px;
+    background-color: white;
+    border-radius:5px;
+    padding: 50px;
+    margin-bottom:50px;
+}
+.project-page-box-heading{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:15px;
+}
+.project-content-items{
+    display:flex;
+    justify-content: space-between;
+}
+.project-content-item-logos{
+    width:10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.project-page-box-text {
+    line-height: 2rem;
+    word-spacing: 5px;
+    font-size: 20px;
+    width: 90%;
+}
+.logo-github {
+    background-color: #66958A;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom:8px;
+    background-image: url(Images/github-logo-silhouette-in-a-square-removebg-preview.png);
+    background-size: 40px 40px;
+}
+.logo-chain{
+    background-color: #66958A;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(Images/icon-removebg-preview.png);
+    background-size: 40px 40px;
+}
+.experience-page{
+    width:100%;
+    height:100%;
+}
+.experience-page-content{
+    padding: 100px 130px;
+}
+
+.exp{
+    font-size: 35px;
+    margin-bottom:30px;
+    font-weight: 500;
+}
+
+
+.internship{
+    padding-bottom:20px;
+    font-size: 35px; 
+    border-bottom: 2px solid #66958A;
+    width: 180px;
+    font-weight: 400;
+}
+
+.experience-page-content-titles{
+    padding-left:35px;
+    border-left: 3px #66958A solid;
+    margin-bottom:30px;
+}
+.experience-page-content-titles-company{
+    margin-bottom: 8px;
+    font-size: 25px;
+    color: #66958A;
+}
+.contributor{
+    margin-bottom: 8px;
+    font-weight:bold;
+    font-size: 20px;
+}
+.contributor-work-description {
+
+    line-height: 1.8rem;
+    font-size: 18px;
+}
+.experience-page-circle{
+    background-color: #66958A;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    position: relative;
+    left:-15px;
+    top:30px;
+}
+.open-source-exp {
+    padding-bottom: 20px;
+    font-size: 35px;
+    border-bottom: 2px solid #66958A;
+    width: 450px;
+    font-weight: 400;
+}
+.skills-page{
+    background-color: #eff4f4;
+    width:100%;
+    height:100%;
+}
+.skills-page-content{
+    padding:100px 130px;
+    opacity:0;
+    transform:scale(0.8);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.skills-page-content.active{
+    opacity:1;
+    transform:scale(1);
+}
+.skills-page-content-heading {
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.skills-page-content-items {
+    display: flex;
+}
+.skills-page-content-items-languages {
+    width: 48%;
+    margin-right: 50px;
+}
+.skills-page-content-items-image {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
+.language {
+    height: 40px;
+    margin-bottom:15px;
+}
+.language-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #d8d2d2;
+}
+.language-bar-c{
+   width:90%;
+   height:100%;
+    background-color: #66958A;
+}
+.language-bar-html{
+    width: 95%;
+    height: 100%;
+    background-color: #66958A;
+}
+.language-bar-css {
+    width: 95%;
+    height: 100%;
+    background-color: #66958A;
+}
+.language-bar-js {
+    width: 80%;
+    height: 100%;
+    background-color: #66958A;
+}
+.language-bar-dsa {
+    width: 85%;
+    height: 100%;
+    background-color: #66958A;
+}
+.profile-footer{
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #66958A;
+    color: white;
+    font-size: 20px;
+    border-radius: 90px 0px 0px 0px;
+}
+.contact-page{
+    width:100%;
+    height:100%;
+}
+.contact-page-contents{
+    padding:80px 130px ;
+    width: 50%;
+}
+.contact-page-contents-contact{
+    font-size: 30px;
+    margin-bottom:50px;
+}
+.contact-page-contents-social-profiles{
+    display: flex;
+    align-items: center;
+   
+}
+.contact-page-contents-social-profiles-text{
+    font-size:22px; 
+    width:45%;
+}
+.contact-page-contents-social-profiles-logos{
+    display: flex;
+    justify-content: space-evenly;
+    width:45%;
+}
+/* .icons-twitter{
+    width:50%;
+    height:50%;
+
+} */
+.logos-icons:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.information{
+    margin-top: 40px;
+    width:100%;
+}
+.information-message{
+    display: flex;
+}
+.info-name-email{
+    display:flex;
+    
+}
+#name,
+#email {
+    height: 40px;
+    margin-right: 35px;
+    outline: none;
+    width: 40%;
+    margin-bottom:30px;
+    background-color: #F6F8FA;
+    border-radius: 5px;
+    border: none;
+  
+}
+
+#subject
+{
+    height:40px;
+    margin-right: 50px;
+    outline: none;
+    width: 85%;
+    margin-bottom: 30px;
+    background-color: #F6F8FA;
+    border-radius: 5px;
+    border: none;
+    
+}
+input::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+#message{
+   
+    outline: none;
+    margin-bottom: 35px;
+    background-color: #F6F8FA;
+    border-radius: 5px;
+    border: none;
+}
+textarea::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.label-message{
+    margin-bottom:15px;
+}
+.send-message-btn{
+    padding:10px 40px;
+    background-color: #66958A;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+}
+.send-message-btn:hover{
+    opacity:0.9;
+}
+.coding-languages{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:5px;
+}
+@media screen and (min-width:992px) {
+    img {
+            margin-top: -20px;
+        }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .home-navbar-contents{
+        padding:15px 90px;
+    }
+    .home-page-content-item {
+        width: 40%;
+    }
+    .text {
+        font-size: 40px;
+    }
+    .picture{
+        width:320px;
+        height:320px;
+    }
+    .contact-btn{
+        font-size:11px;
+        width: 120px;
+        
+    }
+    
+    
+
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .home-navbar-contents{
+        padding:15px 60px;
+    }
+    .home-page-content{
+        padding:0px 70px;
+    }
+    .home-page-content-item{
+        width:30%;  
+    }
+    .text{
+        font-size:35px;
+    }
+    .picture{
+        width: 280px;
+        height:280px;
+    }
+    .about-page-content,.project-page-content,.experience-page-content,.skills-page-content,.contact-page-contents{
+        padding:100px 70px;
+    }
+    .name-logo{
+        font-size:20px;
+    }
+    .contents{
+        width:600px;
+        font-size:14px;
+    }
+    .contact-btn{
+        font-size:12px;
+        
+    }
+   
+}
+@media screen and (max-width:576px) {
+    .home-navbar-contents{
+        padding: 15px 30px;
+    }
+    .home-page-content{
+        padding: 0px 40px;
+    }
+    .about-page-content,.project-page-content,.experience-page-content,.skills-page-content,.contact-page-contents{
+        padding:100px 40px;
+    }
+         .name-logo {
+             font-size: 15px;
+         }
+    
+         .contents {
+             width: 300px;
+             font-size: 9px;
+         }
+    
+         .contact-btn {
+             font-size: 9px;
+            
+         }
+
+       .text{
+        font-size: 25px;
+       }
+       .picture{
+        width:150px;
+        height:150px;
+       }
+       .open-source-exp{
+        font-size:25px;
+        width:250px;
+       }
+       .contact-page-contents-social-profiles-text{
+        font-size: 16px;
+       }
+      .logos-icons{
+        width: 16px;
+        height:16px;
+      }
+}
