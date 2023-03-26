@@ -2,7 +2,7 @@
 
 ## About
 
-It is a pprtfolio website.
+It is a pprtfolio website
 
 ## Tech stack used
 
